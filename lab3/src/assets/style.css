@@ -1,0 +1,38 @@
+.presidents-article {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.presidents-article > * {
+  border: 1px solid;
+}
+
+.presidents-heading {
+  align-self: center;
+  font-weight: 700;
+  font-size: 2em;
+  width: 100%;
+}
+
+.presidents-item {
+  padding: 1em;
+  margin: 1em;
+
+  flex: 1 1 34%;
+}
+
+.presidents-item--democrat {
+  color: blue;
+}
+
+.presidents-item--republican {
+  color: red;
+}
+
+.presidents-item--current {
+  font-style: italic;
+}
