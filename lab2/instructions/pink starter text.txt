@@ -1,0 +1,66 @@
+<!-- The real article I am working from is here:  https://chicago.suntimes.com/taste/2021/1/6/22217305/mountain-dew-major-melon-watermelon-first-new-flavor-in-more-than-decade
+But I have intentionally omitted some of the information from the actual webpage to keep you focused on the task at hand--and to not have you be focused on aspects that are largely presentational.  Also, as we are just doing HTML this week, I've omitted some things that require lots of CSS to make work.  But I'm letting you see what inspired this lab. -->
+
+
+<!-- All the information down to the author is part of the header. -->
+<!-- These first three terms are tags.  Tags are a form of navigation and each of these tags has a link associated with it. 
+    If we were actually building this site at the paper we would use relative addresses, but since we are offsite, lets use 
+absolute addresses here.-->
+Taste
+https://chicago.suntimes.com/taste
+Food and Restaurants
+https://chicago.suntimes.com/food-and-restaurants
+The Sip 
+https://chicago.suntimes.com/the-sip
+
+<!-- The next line is the most important heading in this document. -->
+Mountain Dew going pink — launches first new soda flavor in more than a decade
+<!-- Next line is a sub-heading.  My semantic approach is a bit different than what many textbooks and tutorials would tell you to do here. -->
+Mtn Dew Major Melon will give soda fans a watermelon flavor, and will also be available with zero sugar.  
+<!-- The next line is called a "dateline" in the newspaper business.  It includes the publishing date and often a city location. 
+Your task is to format a <time> element to hold this information.-->
+Jan 6, 2021, 1:50pm EST
+<!-- The next line is called a "byline" in the newspaper business. Your task is to capture this information with a link to the article's author.
+You will use an <address> element for this information. -->
+By Coral Murphy, USA TODAY   <!-- her email address is cmurphy@usatoday.com  -->
+
+<!-- we will ignore the social share buttons -->
+
+<!-- [image file of pink bottle is provided] -->
+
+<!-- below is the image's caption. Notice that the last sentence is a separate part of the caption.  The first is descriptive about the image, then "pepsico" is the copyright holder of the image (though it doesn't directly say that.  So, both are part of the caption, but semantically separate.  Also the vertical bar between the two is not part of page content--it was decorative on the website. -->
+
+Mountain Dew’s Major Melon — in regular and zero sugar beverages — is available in 20-ounce bottles, 2-liter bottles, 12-packs of 12 oz. cans and other single and multipack sizes. PepsiCo
+
+<!-- Below are the story's paragraphs.  Note the one paragraph is a block quotation, and semantically should be indicated as such. -->
+Mountain Dew has unveiled its first new permanent flavor in more than a decade.
+
+Mtn Dew Major Melon will give soda fans a watermelon flavor, and will also be available with zero sugar.
+
+“Watermelon is a truly transportive taste, evoking feelings of freedom and nostalgia,” says Nicole Portwood, vice president of marketing at Mtn Dew. “We found watermelon to be the number one choice of flavors tested amongst our fans, and MTN DEW Major Melon is our answer for those who are looking for a refreshing charge to keep them invigorated all day long.”
+
+Both the regular and zero sugar beverages come in 20-ounce bottles, 2-liter bottles, 12-packs of 12 oz. cans and other single and multipack sizes. The new flavor is available at retailers and online.
+
+The last permanent flavor Mountain Dew introduced was the citrus-flavored White Out in 2010.
+
+Mountain Dew is the No. 1 flavored carbonated soft drink in the U.S.
+
+<!-- Below is the story's footer -->
+Read more at USAToday.com    <!-- the link for usatoday.com is http://usatoday.com/  -->
+Copyright(c)Chicago Sun-Times, 2021  <!-- You should use a real copyright symbol on this line -->
+
+<!-- What follows is a side-bar, so use an aside for it.  
+The items are an unordered list with each item being a link.  
+Let's use absolute URLs here as we aren't on their site. -->
+Next Up In Taste
+What’s the best diet for 2021? Experts weigh in
+https://chicago.suntimes.com/2021/1/6/22215695/mediterranean-diet-best-health-wellness-eating-right
+Epicurious is righting cultural wrongs one recipe at a time
+https://chicago.suntimes.com/taste/2021/1/6/22207340/epicurious-righting-cultural-wrongs-one-recipe-at-a-time-cookbooks
+Starbucks winter menu boasts new Pistachio Latte, Honey Almondmilk Cold Brew, Red Velvet Loaf
+https://chicago.suntimes.com/2021/1/5/22215906/starbucks-winter-menu-pistachio-latte-honey-almondmilk-cold-brew-red-velvet-loaf
+Menu planner: Potato, turkey and vegetable casserole is both economical and tasty
+https://chicago.suntimes.com/2021/1/5/22208592/how-to-make-potato-turkey-vegetable-casserole-lamb-chops-cheese-poblano-pita-taco-chili-recipes
+McDonald’s to launch new chicken sandwiches in February
+https://chicago.suntimes.com/politics/2020/12/31/22208487/illinois-coronavirus-covid-restaurants-indoor-dining-restrictions-sangamon-county
+
