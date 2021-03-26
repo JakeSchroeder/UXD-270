@@ -1,5 +1,5 @@
 html {
-  font-size: 10px;
+  font-size: 80%;
   width: 100%;
   height: 100%;
 }
@@ -19,7 +19,7 @@ body {
   top: 0;
   left: 0;
   background: white;
-  border-bottom: 1px solid;
+  border-bottom: 0.1em solid;
 }
 
 .Gal__Title {
@@ -31,7 +31,7 @@ body {
 .Gal__Wrapper {
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
+  margin-top: 2em;
   max-width: 180em;
   margin: 0 auto;
   background: white;
