@@ -1,0 +1,111 @@
+html {
+  font-size: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: lightgray;
+  padding-top: 7.5em;
+}
+
+.Gal__Header {
+  width: 100%;
+  height: 7.5em;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  background: white;
+  border-bottom: 1px solid;
+}
+
+.Gal__Title {
+  font-size: 5.4em;
+  text-align: center;
+  font-weight: 400;
+}
+
+.Gal__Wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  max-width: 180em;
+  margin: 0 auto;
+  background: white;
+}
+
+.Gal__Section {
+  width: 100%;
+  padding-top: 5em;
+  padding-bottom: 2.5em;
+}
+
+.Gal__Section--reverse .Gal__FigCap {
+  order: -1;
+}
+
+.Gal__Section--reverse .Gal__FigCapP {
+  text-align: right;
+  padding-right: 2em;
+}
+
+.Gal__Figure {
+  display: flex;
+  align-items: center;
+  padding: 0 1em;
+}
+
+.Gal__Figure img {
+  display: block;
+  width: 100%;
+}
+
+.Gal__NameplatWrapper {
+  width: 58%;
+  margin-right: 2em;
+  position: relative;
+}
+
+.Gal__Nameplate {
+  position: absolute;
+  bottom: -2.5em;
+  left: 5em;
+  z-index: 888;
+  height: 5em;
+  border: 0.1em solid rgba(0, 0, 0, 0.33);
+  background: rgba(255, 255, 255, 0.66);
+  width: 26em;
+  padding: 0 0.8em;
+}
+
+.Gal__Section--reverse .Gal__Nameplate {
+}
+
+.Gal__FigCap {
+  width: 42%;
+}
+
+.Gal__FigCapP {
+  font-weight: 300;
+  font-size: 2.4em;
+  line-height: 1.3em;
+}
+
+.Gal__Nameplate .Gal__FigCapP {
+  text-align: center;
+  font-size: 1.8em;
+}
+
+._Flex_Center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Gal__FigCapP--title {
+  font-weight: bold;
+  font-style: italic;
+}
