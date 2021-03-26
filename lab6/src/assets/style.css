@@ -1,0 +1,46 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 80%;
+}
+
+.Wives__Title {
+  font-size: 3.2em;
+  text-align: center;
+  padding: 10px;
+}
+
+.Wives__Fig {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.Wives__Fig img {
+  display: block;
+  width: 50%;
+  padding: 1em;
+  border: 0.1em solid darkslategrey;
+}
+
+@media (min-width: 768px) {
+  .Wives__Fig {
+    max-width: 700px;
+  }
+
+  .Wives__Fig img {
+    width: 28%;
+  }
+}
+
+@media (min-width: 1324px) {
+  .Wives__Fig {
+    flex-wrap: nowrap;
+  }
+}
