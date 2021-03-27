@@ -91,3 +91,20 @@ footer {
   color: white;
   text-align: center;
 }
+
+img {
+  display: block;
+  width: 100%;
+}
+
+@media (max-width: 933px) {
+  ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+  }
+}
